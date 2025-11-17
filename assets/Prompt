@@ -1,0 +1,484 @@
+Prompt:
+“I am preparing for a Java interview. I will provide you with one topic. For that topic, give me a complete interview preparation set including:
+
+Theory questions
+
+Practical coding questions
+
+Tricky & logical questions
+
+Advanced / complex questions
+
+Real-world scenario questions
+
+Debugging questions
+
+Optimization questions
+
+Architecture & design questions
+
+Behavioral + technical questions
+
+MCQs / quick quiz
+
+Hands-on coding tasks
+
+System design questions (Java-specific)
+
+Testing (JUnit / Mockito) questions
+
+Best practices & anti-patterns
+Minimum 100 questions (you may give more).
+Make the list structured and categorized.
+Do not include answers unless I ask for them.
+Wait for my topic.”
+
+✅ 1. Core Java
+1.1 Java Fundamentals
+
+JVM, JRE, JDK
+
+Memory Model (Heap, Stack, GC)
+
+Data Types, Operators, Type Casting
+
+Strings & String Pool
+
+1.2 Object-Oriented Programming
+
+Classes, Objects
+
+Inheritance & Composition
+
+Polymorphism (Overload vs Override)
+
+Abstraction, Interfaces
+
+Encapsulation
+
+Packages & Access Modifiers
+
+1.3 Collections Framework
+
+List, Set, Map, Queue interfaces
+
+ArrayList, LinkedList, HashSet, TreeSet, HashMap, LinkedHashMap
+
+Comparator vs Comparable
+
+Fail-fast vs Fail-safe iterators
+
+Concurrent Collections
+
+1.4 Exception Handling
+
+Checked vs Unchecked
+
+Custom Exceptions
+
+try-with-resources
+
+1.5 Java 8+ Features
+
+Lambda expressions
+
+Functional Interfaces (Predicate, Consumer, Function, Supplier)
+
+Streams API (map, filter, reduce, flatMap, collectors)
+
+Optional
+
+Method Reference
+
+1.6 Multithreading & Concurrency
+
+Thread lifecycle
+
+Runnable vs Callable
+
+ThreadPool (ExecutorService)
+
+Synchronization, Locks
+
+CompletableFuture
+
+Fork-Join Framework
+
+1.7 I/O & Serialization
+
+File I/O (NIO)
+
+Byte Stream vs Character Stream
+
+Serialization & Deserialization
+
+1.8 GUI Basics (if required)
+
+AWT & Swing fundamentals
+
+✅ 2. Java EE (J2EE)
+2.1 Servlets
+
+Servlet lifecycle
+
+Request/Response model
+
+Filters & Listeners
+
+Session Management (Cookies, HttpSession)
+
+2.2 JSP
+
+JSP lifecycle
+
+Scriptlets, JSTL, Expression Language
+
+MVC using Servlets + JSP
+
+2.3 JDBC
+
+Driver types
+
+Connection, Statement, PreparedStatement
+
+Batch processing
+
+Connection pooling
+
+✅ 3. Spring Framework
+3.1 Spring Core
+
+IoC/DI
+
+Bean scopes
+
+Bean lifecycle
+
+Property injection vs Constructor injection
+
+3.2 Spring Boot
+
+Auto-configuration
+
+Starters
+
+Application.properties/yml
+
+Profiles
+
+Actuator
+
+Embedded servers (Tomcat, Jetty)
+
+3.3 Spring MVC
+
+Controller, RestController
+
+RequestMapping, PathVariable, RequestParam
+
+Exception Handling (ControllerAdvice)
+
+Data Binding & Validation
+
+3.4 Spring Security
+
+Authentication vs Authorization
+
+Security Filters
+
+UserDetailsService
+
+Password Encoding
+
+Role-based access
+
+JWT-based security
+
+OAuth2 principles
+
+3.5 Spring AOP
+
+Joinpoint, Pointcut, Advice
+
+Before, After, Around advices
+
+Use cases: Logging, Transaction Management
+
+3.6 Spring Data JPA
+
+Entity mapping
+
+JPQL vs Criteria API
+
+Repository pattern
+
+Pagination & Sorting
+
+Transactions (ACID, @Transactional)
+
+✅ 4. Microservices
+4.1 Architecture Concepts
+
+Monolith vs Microservices
+
+Service Registry & Discovery
+
+API Gateway
+
+Configuration server
+
+Inter-service communication (REST, Feign)
+
+4.2 Microservices with Spring Boot
+
+Feign clients
+
+Eureka
+
+Config Server
+
+Load Balancing
+
+Resilience: Hystrix/Resilience4j
+
+4.3 Distributed Concepts
+
+Circuit breakers
+
+Rate limiting
+
+Event-driven microservices (Kafka)
+
+✅ 5. Testing
+5.1 JUnit
+
+Test lifecycle
+
+Assertions
+
+Testing exceptions
+
+Parameterized tests
+
+5.2 Mockito
+
+@Mock, @InjectMocks
+
+Mocking external dependencies
+
+when() & verify()
+
+5.3 MockMVC
+
+Testing Spring MVC Controllers
+
+JSONPath
+
+Mock requests/responses
+
+5.4 Test-Driven Development (TDD)
+
+Red → Green → Refactor
+
+Writing effective unit tests
+
+5.5 Test Coverage
+
+JaCoCo reports
+
+Code coverage metrics (line, branch)
+
+✅ 6. Databases
+6.1 SQL
+
+Joins
+
+Aggregations
+
+Grouping
+
+Subqueries
+
+Indexes
+
+Views
+
+Stored procedures & triggers
+
+6.2 RDBMS
+
+MySQL (DDL, DML, DCL)
+
+Oracle basics
+
+H2 in-memory DB
+
+6.3 NoSQL / Caching
+
+Redis basics
+
+Caching strategies (write-through, write-back, TTL)
+
+6.4 Tools
+
+HeidiSQL
+
+MySQL Workbench
+
+✅ 7. REST API Development
+7.1 REST Essentials
+
+HTTP methods
+
+Status codes
+
+Idempotency
+
+Statelessness
+
+7.2 API Documentation
+
+Swagger/OpenAPI
+
+Postman collections
+
+7.3 Security
+
+JWT
+
+OAuth2 concepts
+
+CORS
+
+7.4 JSON Handling
+
+JSON parsing
+
+Jackson annotations
+
+JSONPath
+
+✅ 8. DevOps & Cloud
+8.1 Version Control
+
+Git basics
+
+Branching strategies (GitFlow)
+
+Merge vs Rebase
+
+GitHub workflows
+
+SVN basics
+
+8.2 CI/CD
+
+What is CI/CD
+
+TeamCity pipelines
+
+Build → Test → Deploy process
+
+8.3 Docker
+
+Containers vs VMs
+
+Dockerfile
+
+Docker Compose
+
+Images vs Containers
+
+8.4 Kubernetes
+
+Pods, Deployments, Services
+
+ConfigMaps, Secrets
+
+Scaling & Load balancing
+
+8.5 AWS
+
+EC2
+
+S3
+
+IAM
+
+RDS basics
+
+8.6 Kafka
+
+Producers & Consumers
+
+Topics, Partitions
+
+Consumer Groups
+
+Offset management
+
+✅ 9. Automation & Testing Tools
+9.1 Selenium
+
+WebDriver
+
+Locators
+
+Page Object Model
+
+9.2 Integration Testing
+
+Testing with H2
+
+Spring Boot Test
+
+Test containers (optional)
+
+✅ 10. Servers
+10.1 Web Servers
+
+Apache Tomcat architecture
+
+Jetty basics
+
+WAR deployment vs Executable JAR
+
+✅ 11. Frontend Basics (for backend devs)
+11.1 Web Fundamentals
+
+HTML basics
+
+CSS basics
+
+Bootstrap UI components
+
+11.2 JavaScript Basics
+
+DOM manipulation
+
+ES6 features
+
+Promises, async/await
+
+11.3 Thymeleaf
+
+Templates & Expressions
+
+Layouts
+
+Form handling
+
+✅ 12. Development Tools
+12.1 IDEs
+
+Eclipse shortcuts
+
+Visual Studio Code
+
+Debugging techniques
+
+12.2 Project Management & Bug Tracking
+
+YouTrack
+
+Agile, Scrum concepts
